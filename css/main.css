@@ -1,0 +1,442 @@
+body{
+    font-family: Montserrat, sans-serif;
+    color: #090a0f;
+}
+
+.header{
+    background: url(../img/bg.jpg) no-repeat center top;
+    background-size: 100%;
+}
+.header-text-title-item{
+    margin-top: 290px;
+    margin-right: 540px;
+}
+
+.header-text-title{
+    font-size:40px;
+    font-family: Monotype Corsiva;
+    color: #333aa0;
+    text-align: center;
+    font-weight: bold;
+
+}
+.header-text-item{
+    margin-left: 754px;
+    margin-top: 217px;
+}
+
+.header-text{
+    font-weight: bold;
+    color: #ffffff;
+    font-size:40px;
+    text-transform: uppercase;
+}
+
+.header-text-nano-item{
+    margin-left: 658px;
+}
+.header-text-nano{
+    font-weight: bold;
+    color: #ffffff;
+    font-size:40px;
+    text-transform: uppercase;
+}
+
+span{
+    color: #cd0032;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.offer-img{
+    margin-top: 32px;
+}
+
+.offer-text{
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.offer-text-small{
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 43px;
+}
+
+.data28{
+    position: absolute;
+    height: 49px;
+}
+
+
+.people-one-title-name{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.people-img{
+    height: 200px;
+}
+
+.people-one-lozung{
+    color: #cd0032;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.people-one-item-text{
+    font-size: 17px;
+    width: 465px;
+}
+
+.fas{
+    margin-top: 8px;
+    margin-right: 17px;
+    font-size: 8px;
+}
+
+.people-one-item{
+    display: flex;
+}
+
+.footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-text{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 61px;
+}
+
+.footer-item-icon{
+    margin-left: 50px;
+    height: 50px;
+}
+.footer-item{
+    margin-top: 45px;
+}
+
+.people-one-img{
+    margin-top: 50px;
+}
+
+@media (width: 1024px){
+    .header-text-title-item {
+        margin-top: 137px;
+        margin-right: 467px;
+    }
+
+    .header-text-item {
+        margin-left: 636px;
+        margin-top: 102px;
+    }
+
+    .header-text {
+        font-size: 33px;
+    }
+
+    .header-text-nano {
+        font-size: 33px;
+    }
+    .header-text-nano-item {
+        margin-left: 557px;
+    }
+
+    .offer-text {
+        font-size: 19px;
+    }
+
+    .offer-text-small {
+        font-size: 21px;
+        font-weight: bold;
+        margin-top: 43px;
+    }
+}
+
+@media (width: 768px){
+    .header-text-title-item {
+        margin-top: 95px;
+        margin-right: 0px;
+    }
+    .header-text-title {
+        font-size: 16px;
+        width: 250px;
+    }
+    .header-text-item {
+        margin-left: 583px;
+        margin-top: 235px;
+    }
+
+    .header-text-nano-item {
+        margin-left: 554px;
+        margin-top: -15px;
+
+    }
+    .header-text {
+        font-size: 12px;
+    }
+    .header-text-nano {
+        font-size: 12px;
+    }
+
+    .offer-img {
+        margin-top: 12px;
+        height: 60px;
+    }
+
+    .offer-text {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .offer-text-small {
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    .people-one{
+        margin-left: 175px;
+    }
+
+    .data28 {
+        position: absolute;
+        height: 49px;
+        left: 246px;
+    }
+
+    .people-img {
+        height: 200px;
+        margin-left: 53px;
+    }
+
+    .footer {
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .footer-item-icon {
+        margin-left: 102px;
+        height: 50px;
+    }
+
+    .footer-text {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 61px;
+        text-align: center;
+    }
+}
+
+@media (width: 425px){
+    .header-text-title-item {
+        margin-top: 95px;
+        margin-right: 0px;
+    }
+    .header-text-title {
+        font-size:11px;
+        width: 115px;
+    }
+    .header-text-item {
+        margin-left: 273px;
+        margin-top:0px;
+    }
+
+    .header-text-nano-item {
+        margin-left: 254px;
+        margin-top: -15px;
+    }
+    .header-text {
+        font-size: 8px;
+    }
+    .header-text-nano {
+        font-size: 8px;
+    }
+
+    .offer-img {
+        margin-top: 12px;
+        height: 35px;
+    }
+
+    .offer-text {
+        font-size: 9px;
+        margin-top: 15px;
+    }
+
+    .offer-text-small {
+        font-size: 6px;
+        margin-top: 8px;
+    }
+
+    .data28 {
+        position: absolute;
+        height: 49px;
+        left: 70px;
+    }
+
+    .people-img {
+        height: 200px;
+        margin-left: 53px;
+    }
+
+    .footer {
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .footer-item-icon {
+        margin-left: 29px;
+        height: 50px;
+    }
+
+}
+
+@media (width: 375px) {
+    .header-text-title-item {
+        margin-top: 95px;
+        margin-right: 0px;
+    }
+    .header-text-title {
+        font-size:11px;
+        width: 115px;
+    }
+    .header-text-item {
+        margin-left: 273px;
+        margin-top:0px;
+    }
+
+    .header-text-nano-item {
+        margin-left: 254px;
+        margin-top: -15px;
+    }
+    .header-text {
+        font-size: 8px;
+    }
+    .header-text-nano {
+        font-size: 8px;
+    }
+
+    .offer-img {
+        margin-top: 12px;
+        height: 35px;
+    }
+
+    .offer-text {
+        font-size: 9px;
+        margin-top: 15px;
+    }
+
+    .offer-text-small {
+        font-size: 6px;
+        margin-top: 8px;
+    }
+
+    .data28 {
+        position: absolute;
+        height: 49px;
+        left: 70px;
+    }
+
+    .people-img {
+        height: 200px;
+        margin-left: 53px;
+    }
+
+    .footer {
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .footer-item-icon {
+        margin-left: 29px;
+        height: 50px;
+    }
+
+}
+
+@media (width: 320px) {
+    .header-text-title-item {
+        margin-top: 95px;
+        margin-right: 0px;
+    }
+    .header-text-title {
+        font-size: 10px;
+        width: 115px;
+    }
+    .header-text-item {
+        margin-left: 218px;
+        margin-top:0px;
+    }
+
+    .header-text-nano-item {
+        margin-left: 199px;
+        margin-top: -15px;
+    }
+    .header-text {
+        font-size: 8px;
+    }
+    .header-text-nano {
+        font-size: 8px;
+    }
+
+    .offer-img {
+        margin-top: 12px;
+        height: 35px;
+    }
+
+    .offer-text {
+        font-size: 7px;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    .offer-text-small {
+        font-size: 5px;
+        font-weight: bold;
+        margin-top: 8px;
+    }
+    .people-img {
+        height: 173px;
+    }
+
+    .data28 {
+        height: 38px;
+    }
+
+    .people-one-title-name {
+        font-size: 12px;
+    }
+
+    .people-one-lozung {
+        font-size: 12px;
+    }
+
+    .fas {
+        margin-top: 4px;
+        margin-right: 6px;
+        font-size: 8px;
+    }
+    .people-one-item-text {
+        font-size: 14px;
+         width: 220px;
+    }
+
+
+    .footer-item-icon {
+        margin-left: 16px;
+        height: 50px;
+    }
+
+    .footer-item {
+        margin-top: 12px;
+    }
+    .footer-text {
+        font-size: 10px;
+
+        margin-top: 14px;
+    }
+}
