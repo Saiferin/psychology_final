@@ -7,6 +7,13 @@ body{
     background: url(../img/bg.jpg) no-repeat center top;
     background-size: 100%;
 }
+.main{
+    background: rgb(236,247,255);
+    background: -moz-linear-gradient(139deg, rgba(236,247,255,1) 0%, rgba(211,220,255,1) 100%);
+    background: -webkit-linear-gradient(139deg, rgba(236,247,255,1) 0%, rgba(211,220,255,1) 100%);
+    background: linear-gradient(139deg, rgba(236,247,255,1) 0%, rgba(211,220,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ecf7ff",endColorstr="#d3dcff",GradientType=1);
+}
 .header-text-title-item{
     margin-top: 290px;
     margin-right: 540px;
@@ -54,6 +61,7 @@ ul, li {
 
 .offer-img{
     margin-top: 32px;
+    margin-bottom: 15px;
 }
 
 .offer-text{
