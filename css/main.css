@@ -128,7 +128,7 @@ ul, li {
     margin-top: 50px;
 }
 
-@media (width: 1024px){
+@media only screen and (min-width : 1024px) and (max-width : 199px){
     .header-text-title-item {
         margin-top: 137px;
         margin-right: 467px;
@@ -161,7 +161,81 @@ ul, li {
     }
 }
 
-@media (width: 768px){
+@media only screen and (min-width: 992px) and (max-width: 1199.98px)  {
+    .header-text-title-item {
+        margin-top: 95px;
+        margin-right: 0px;
+    }
+    .header-text-title {
+        font-size: 36px;
+        width: 375px;
+    }
+    .header-text-item {
+        margin-left: 666px;
+        margin-top: 281px;
+    }
+
+    .header-text-nano-item {
+        margin-left: 606px;
+        margin-top: -15px;
+
+    }
+    .header-text {
+        font-size: 26px;
+    }
+    .header-text-nano {
+        font-size: 26px;
+    }
+
+    .offer-img {
+        margin-top: 12px;
+        height: 60px;
+    }
+
+    .offer-text {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .offer-text-small {
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    .people-one{
+        margin-left:0px;
+    }
+
+    .data28 {
+        position: absolute;
+        height: 49px;
+        left: 246px;
+    }
+
+    .people-img {
+        height: 200px;
+        margin-left: 53px;
+    }
+
+    .footer {
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .footer-item-icon {
+        margin-left: 46px;
+        height: 50px;
+    }
+
+    .footer-text {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 61px;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width : 768px) and (max-width : 1023px){
     .header-text-title-item {
         margin-top: 95px;
         margin-right: 0px;
@@ -171,12 +245,85 @@ ul, li {
         width: 250px;
     }
     .header-text-item {
-        margin-left: 583px;
-        margin-top: 235px;
+        margin-left: 525px;
+        margin-top: 228px;
     }
 
     .header-text-nano-item {
-        margin-left: 554px;
+        margin-left: 497px;
+        margin-top: -15px;
+
+    }
+    .header-text {
+        font-size: 12px;
+    }
+    .header-text-nano {
+        font-size: 12px;
+    }
+
+    .offer-img {
+        margin-top: 12px;
+        height: 60px;
+    }
+
+    .offer-text {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .offer-text-small {
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    .people-one{
+        margin-left:0px;
+    }
+
+    .data28 {
+        position: absolute;
+        height: 49px;
+        left: 246px;
+    }
+
+    .people-img {
+        height: 200px;
+        margin-left: 53px;
+    }
+
+    .footer {
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .footer-item-icon {
+        margin-left: 19px;
+        height: 50px;
+    }
+
+    .footer-text {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 61px;
+        text-align: center;
+    }
+}
+
+    @media only screen and (min-width : 640px) and (max-width : 767px){
+    .header-text-title-item {
+        margin-top: 95px;
+        margin-right: 0px;
+    }
+    .header-text-title {
+        font-size: 16px;
+        width: 250px;
+    }
+    .header-text-item {
+        margin-left: 383px;
+        margin-top: 158px;
+    }
+
+    .header-text-nano-item {
+        margin-left: 356px;
         margin-top: -15px;
 
     }
@@ -296,7 +443,7 @@ ul, li {
 
 }
 
-@media (width: 375px) {
+@media only screen and (min-width : 480px) and (max-width : 639px) {
     .header-text-title-item {
         margin-top: 95px;
         margin-right: 0px;
@@ -306,12 +453,12 @@ ul, li {
         width: 115px;
     }
     .header-text-item {
-        margin-left: 273px;
-        margin-top:0px;
+        margin-left: 387px;
+        margin-top: 101px;
     }
 
     .header-text-nano-item {
-        margin-left: 254px;
+        margin-left: 369px;
         margin-top: -15px;
     }
     .header-text {
@@ -358,7 +505,7 @@ ul, li {
 
 }
 
-@media (width: 320px) {
+@media only screen and (min-width : 320px) and (max-width : 479px) {
     .header-text-title-item {
         margin-top: 95px;
         margin-right: 0px;
